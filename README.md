@@ -1,8 +1,21 @@
-# React + Vite
+Hi! This is my portfolio website I'm building using ReactJS and Tailwind.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To-do:
 
-Currently, two official plugins are available:
+General:
+- Implement snap scrolling
+- Decide on a theme for the webiste 
+- Implement the theme
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Home:
+- Create a Hero section 
+
+Projects:
+- Create a functioning carousel with placeholder projects
+
+About:
+- Write text about myself
+- Create about page with links to Github, LinkedIn Etc
+
+Contact:
+- Write logic to handle contact request
