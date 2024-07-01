@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-blue-500 text-white fixed w-full bg-opacity-50 z-20 top-0">
-      <ul className="flex justify-center p-4 space-x-4">
+      <ul className="flex justify-center p-4 space-x-4 max-w-full overflow-x-auto">
         <li><button onClick={() => handleScroll('home')} className="px-4 py-2">Home</button></li>
         <li><button onClick={() => handleScroll('about')} className="px-4 py-2">About</button></li>
         <li><button onClick={() => handleScroll('projects')} className="px-4 py-2">Projects</button></li>
