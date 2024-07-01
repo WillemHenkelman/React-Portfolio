@@ -4,6 +4,11 @@ General:
 - Implement snap scrolling
 - Decide on a theme for the webiste 
 - Implement the theme
+- 3d graphics
+
+Navbar:
+- Items on right
+- Log on left
 
 Home:
 - Create a Hero section 

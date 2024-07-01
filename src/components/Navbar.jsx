@@ -4,15 +4,12 @@ const Navbar = () => {
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      window.scrollTo({
-        top: element.offsetTop,
-        behavior: 'smooth',
-      });
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
-    <nav className="bg-blue-500 text-white fixed w-full z-10 top-0">
+    <nav className="bg-blue-500 text-white fixed w-full bg-opacity-50 z-20 top-0">
       <ul className="flex justify-center p-4 space-x-4">
         <li><button onClick={() => handleScroll('home')} className="px-4 py-2">Home</button></li>
         <li><button onClick={() => handleScroll('about')} className="px-4 py-2">About</button></li>
